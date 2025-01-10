@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/* CSS de los navbar */
+.navbar-top, .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-top {
+  background-color: #0E141B;
+  border-bottom: 1px solid #413a66;
+}
+
+.navbar {
+  background-color: #2e2747;
+}
+
+.navbar-top .menu-top, .navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-top .menu-top a, .navbar .menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.navbar-top .menu-top a:hover, .navbar .menu a:hover {
+  background-color: #9b78e5;
+  border-radius: 5px;
+}
+
+.navbar-top .menu-top a.active, .navbar .menu a.active {
+  color: #4faaff;
+}
+
+.navbar-top .icons-top, .navbar .icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-top .icons-top a, .navbar .icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-top .profile .dropdown {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #413a66;
+  border-radius: 5px;
+}
+
+.navbar-top .profile .dropdown:hover {
+  background-color: #564c83;
+}
+
+.navbar .icons input[type="text"] {
+  background-color: #413a66;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar .icons input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.navbar .icons input[type="text"]:focus {
+  outline: none;
+  background-color: #564c83;
+}
+
+.content {
+  display: flex;
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  color: #4faaff;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-image: url('images/default.gif'); /* Ruta de la imagen */
+  background-size: cover;
+  background-position: center;
+}
+/* Aqui comienza lo del slider */
+.slider-container {
+  background-color: #08030D;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo del slider */
+.slider {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  background-color: #1a1a1a;
+  border: 1px solid #413a66;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.slide img {
+  max-width: 50%;
+  border-radius: 5px;
+}
+
+.description {
+  max-width: 40%;
+  padding: 10px;
+  background-color: #2e2747;
+  border-radius: 5px;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.indicators .dot {
+  height: 10px;
+  width: 10px;
+  background-color: #413a66;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.indicators .dot.active {
+  background-color: white;
+}
+
+
