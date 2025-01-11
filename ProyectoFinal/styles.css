@@ -288,3 +288,267 @@ button.next {
 .view-more:hover {
   background-color: #564c83;
 }
+.categories {
+  background-color: #0b0313;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  text-align: center;
+  background-color: #1a1a1a;
+  border: 1px solid #413a66;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.category-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.category-item p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.category-item:hover {
+  transform: scale(1.05);
+}
+
+.free-to-play-games {
+  background-color: #12032b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.free-to-play-games h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-items {
+  display: flex;
+  overflow: hidden;
+  gap: 20px;
+  width: 80%;
+}
+
+.game-card {
+  background-color: #1c1c2c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  flex: 0 0 300px;
+  position: relative;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+}
+
+.game-info {
+  padding: 10px;
+}
+
+.game-info h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.game-info p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.play-button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-dots {
+  margin-top: 10px;
+}
+
+.carousel-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #666;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-dots .dot.active {
+  background-color: white;
+}
+
+.recently-updated {
+  background-color: #12032b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.recently-updated h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-items {
+  display: flex;
+  overflow: hidden;
+  gap: 20px;
+  width: 80%;
+}
+
+.game-card {
+  background-color: #1c1c2c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  flex: 0 0 300px;
+  position: relative;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+}
+
+.game-info {
+  padding: 10px;
+}
+
+.game-info h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.game-info p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.wishlist-button,
+.updates-button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.wishlist-button {
+  background-color: #5a5a5a;
+  color: white;
+}
+
+.updates-button {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-dots {
+  margin-top: 10px;
+}
+
+.carousel-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #666;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-dots .dot.active {
+  background-color: white;
+}
