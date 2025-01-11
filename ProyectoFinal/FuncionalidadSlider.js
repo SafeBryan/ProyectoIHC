@@ -5,13 +5,16 @@ let currentSlide = 0;
 // Función para mostrar la diapositiva actual
 function showSlide(index) {
   slides.forEach((slide, i) => {
-    slide.classList.toggle("active", i === index);
+    // Asegura que todas las diapositivas se posicionen correctamente
     slide.style.transform = `translateX(${(i - index) * 100}%)`;
+    slide.classList.toggle("active", i === index); // Solo la actual tiene clase "active"
   });
+
   dots.forEach((dot, i) => {
-    dot.classList.toggle("active", i === index);
+    dot.classList.toggle("active", i === index); // Actualiza el indicador
   });
 }
+
 
 // Navegación siguiente
 document.querySelector(".next").addEventListener("click", () => {

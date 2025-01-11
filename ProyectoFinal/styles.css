@@ -202,5 +202,89 @@ button.next {
 .indicators .dot.active {
   background-color: white;
 }
+.slider {
+  min-height: 300px; 
+}
 
+/* Ofertas especiales*/
 
+.special-offers {
+  background-color: #0b0313;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.special-offers h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.offers-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.offer-card {
+  background-color: #1a1a1a;
+  border: 1px solid #413a66;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.offer-card img {
+  width: 100%;
+  height: auto;
+}
+
+.offer-details {
+  padding: 15px;
+}
+
+.offer-details h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.offer-details p {
+  margin: 5px 0;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price .discount {
+  color: #8dfc03;
+}
+
+.price .new-price {
+  color: #4faaff;
+}
+
+.price .old-price {
+  text-decoration: line-through;
+  color: #777;
+  font-size: 14px;
+}
+
+.view-more {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2e2747;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-more:hover {
+  background-color: #564c83;
+}
